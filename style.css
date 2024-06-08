@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/header_photo.jpg);
+    width: auto;
+    text-align: center;
+}
+.menuTitle {
+    font-weight: normal;
+    padding-top: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.menuTitle:hover {
+    text-decoration: underline;
+}
+.headingTitle, .menuTitle {
+    color: white;
+    text-align: center;
+}
+#logo {
+    width: 250px;
+    height: 120px;
+}
+#about {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.searchText {
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.btn {
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #EACB2A;
+    color: white;
+    border: none;
+}
+form {
+    padding: 25px;
+}
+.photo {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.card-item {
+    text-align: center;
+    display: inline-block;
+}
+.main {
+    text-align: center;
+}
+.ad {
+    background-color: #296DD4;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;   
+    font-weight: bold;
+    font-size: 18px;
+}
+.about-shop {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/about.jpg);
+    color: white;
+    text-align: center;
+}
+.adTitle {
+    margin-bottom: 0;
+}
+.aboutTitle {
+    margin-top: 0;
+    padding: 40px;
+    padding-top: 100px;
+}
+.about-shop-p {
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+.time-work {
+   text-align: center;
+}
+.clocks {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+li {
+    list-style-type: none;
+}
+.call-us {
+    display: flex;
+    text-align: center;
+}
+.contacts {
+    width: 55%;
+    padding-top: 50px;
+}
+.right {
+    width: 50%;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
